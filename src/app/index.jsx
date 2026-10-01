@@ -5,8 +5,8 @@ import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 export default function App() {
   const [diaslaborados, setDiasLaborados] = useState(0);
   const [salariopordia, setSalarioporDia] = useState(0);
-  const [tipoempleado, setTipoEmpleado] = useState(1);
-  const [resultado, SetResultado] = useState(null);
+  const [tipoempleado, setTipoEmpleado] = useState(0);
+  const [resultado, SetResultado] = useState(0);
   function calcularSalario() {
     let dias = 0,
       salariod = 0,
